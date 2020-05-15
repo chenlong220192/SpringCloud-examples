@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: client
+  cloud:
+    config:
+      uri: http://localhost:1201/
+      profile: dev
+      label: master
+
+server:
+  port: 2001
+
+# 配合actuator自动刷新
+management:
+  endpoint:
+    shutdown:
+      enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"

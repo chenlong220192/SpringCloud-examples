@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.chenlong</groupId>
+    <groupId>site.mingsha</groupId>
     <artifactId>spring-cloud-examples</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
@@ -11,6 +11,15 @@
     <modules>
 
         <module>eureka-server</module>
+        <module>eureka-provider</module>
+        <module>eureka-consumer</module>
+        <module>eureka-consumer-ribbon</module>
+        <module>eureka-consumer-feign</module>
+        <module>eureka-feign-upload-server</module>
+        <module>eureka-feign-upload-client</module>
+
+        <module>config-server</module>
+        <module>config-client</module>
 
     </modules>
 

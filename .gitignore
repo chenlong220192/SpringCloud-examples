@@ -9,6 +9,6 @@ target
 .DS_Store
 
 # log
-log
+logs
 *.log
 
