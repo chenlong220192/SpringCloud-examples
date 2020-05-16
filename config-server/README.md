@@ -1,4 +1,4 @@
-### Spring Cloud Config 有它的一套访问规则，我们通过这套规则在浏览器上直接访问就可以。
+### Spring Cloud Config 有它的一套访问规则，我们通过这套规则在浏览器上直接访问。
 
 ```
 /{application}/{profile}[/{label}]
