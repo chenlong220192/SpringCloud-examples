@@ -4,17 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>site.mingsha</groupId>
-    <artifactId>spring-cloud-examples</artifactId>
+    <artifactId>3-Edgware</artifactId>
     <version>1.0.0</version>
 
     <packaging>pom</packaging>
 
     <modules>
-
-        <module>1-Brixton</module>
-        <module>2-Dalston</module>
-        <module>3-Edgware</module>
-        <module>4-Finchley</module>
 
     </modules>
 

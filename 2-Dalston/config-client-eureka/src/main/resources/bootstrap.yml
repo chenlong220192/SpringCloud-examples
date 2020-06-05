@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: config-client-eureka
+  cloud:
+    config:
+      profile: dev
+      discovery:
+        enabled: true # 开启通过服务来访问Config-Server的功能
+        serviceId: config-server-eureka # 指定Config-Server注册的服务名
+
+server:
+  port: 1013
+
+eureka:
+  client:
+    healthcheck:
+      enabled: false
+    serviceUrl:
+      # 多注册中心注册http://peer1:1001/eureka/,http://peer2:1002/eureka/
+      defaultZone: http://localhost:1001/eureka/
+
+# 配合actuator自动刷新
+management:
+  endpoint:
+    shutdown:
+      enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"

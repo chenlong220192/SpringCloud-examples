@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: config-server-eureka
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/chenlong220192/spring-cloud-config-repo.git
+          default-label: master #配置文件分支
+          search-paths: config  #配置文件所在根目录
+#          username:
+#          password:
+
+server:
+  port: 1012
+
+eureka:
+  client:
+    healthcheck:
+      enabled: false
+    serviceUrl:
+      # 多注册中心注册http://peer1:1001/eureka/,http://peer2:1002/eureka/
+      defaultZone: http://localhost:1001/eureka/
+
+logging:
+  level:
+    root: debug
+    site.mingsha: debug
+  file: ./logs/${spring.application.name}.log

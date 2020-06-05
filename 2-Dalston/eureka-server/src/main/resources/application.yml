@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: eureka-server
+  profiles:
+    active: standalone
+
+logging:
+  level:
+    root: debug
+    site.mingsha: debug
+  file: ./logs/${spring.application.name}.log
