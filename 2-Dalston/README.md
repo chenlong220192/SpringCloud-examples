@@ -5,6 +5,7 @@
 - eureka-provider 服务提供者
 ***
 - eureka-consumer 服务消费者
+- eureka-consumer-all-instances 服务消费者（获取所有服务的所有实例信息）
 - eureka-consumer-ribbon 服务消费者，使用Ribbon负载均衡器。
 - eureka-consumer-feign 服务消费者，使用feign客户端模式，内置Ribbon负载均衡器。
 ***
