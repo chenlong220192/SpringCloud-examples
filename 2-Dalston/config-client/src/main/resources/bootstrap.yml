@@ -8,7 +8,7 @@ spring:
       label: master
 
 server:
-  port: 1011
+  port: 1013
 
 # 配合actuator自动刷新
 management:

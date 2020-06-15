@@ -12,4 +12,4 @@ spring:
 #          password:
 
 server:
-  port: 1010
+  port: 1012

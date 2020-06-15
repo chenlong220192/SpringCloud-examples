@@ -12,7 +12,7 @@ spring:
 #          password:
 
 server:
-  port: 1012
+  port: 1014
 
 eureka:
   client:
@@ -26,4 +26,4 @@ logging:
   level:
     root: debug
     site.mingsha: debug
-  file: ./logs/${spring.application.name}.log
+  file: ./2-Dalston/logs/${spring.application.name}.log

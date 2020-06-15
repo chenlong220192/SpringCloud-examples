@@ -9,7 +9,7 @@ spring:
         serviceId: config-server-eureka # 指定Config-Server注册的服务名
 
 server:
-  port: 1013
+  port: 1015
 
 eureka:
   client:

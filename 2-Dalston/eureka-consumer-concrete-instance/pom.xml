@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>site.mingsha</groupId>
-    <artifactId>eureka-consumer-concrete-instances</artifactId>
+    <artifactId>eureka-consumer-concrete-instance</artifactId>
     <version>1.0.0</version>
 
     <packaging>jar</packaging>
