@@ -1,6 +1,6 @@
 ## 启动步骤
 
-### 单机模式
+### 单节点模式
 - `mvn spring-boot:run -Drun.profiles=standalone`
 
 ### 多节点模式
